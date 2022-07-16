@@ -1,1 +1,24 @@
 ﻿
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:3rem;
+    padding-right:3rem;
+
+}
+.icon-menu-item {
+    width: 3.563rem;
+    height: 0.500rem;
+    background-color: black;
+    margin: 0.375rem 0;
+    border-radius: 6px;
+}
+.con-wrapper{
+    display:flex;
+    justify-content:center;
+    height:auto;
+    width:100%;
+}
+
