@@ -9,16 +9,51 @@
 
 }
 .icon-menu-item {
-    width: 3.563rem;
-    height: 0.500rem;
+    width: 4.563rem;
+    height: 0.400rem;
     background-color: black;
-    margin: 0.375rem 0;
+    margin: 0.575rem 0;
     border-radius: 6px;
+}
+.con {
+    margin-top:2rem;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
 }
 .con-wrapper{
     display:flex;
     justify-content:center;
     height:auto;
     width:100%;
+}
+.content-center {
+    max-width: 87.5rem;
+    margin: auto;
+    height: 100%;
+    padding: 0 5.5rem;
+}
+.title{
+    font-size:4rem;
+    margin-bottom:0;
+}
+.title1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+.under-title {
+    height: 4px;
+    width: 74%;
+    min-width: 50;
+    background: linear-gradient(85deg,#ffdc66,transparent);
+}
+.title-wrapper{
+    display:flex;
+    flex-direction:column;
+}
+
+.con1-title{
+    font-size:5rem;
+    margin-bottom:0;
+   
 }
 
