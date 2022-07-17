@@ -43,17 +43,78 @@
 .under-title {
     height: 4px;
     width: 74%;
-    min-width: 50;
     background: linear-gradient(85deg,#ffdc66,transparent);
 }
 .title-wrapper{
     display:flex;
     flex-direction:column;
 }
-
-.con1-title{
-    font-size:5rem;
-    margin-bottom:0;
-   
+.con1-title {
+    font-size: 5rem;
+    margin-bottom: 0;
+    margin-top: 15rem;
 }
 
+.con2-title{
+    font-size:5rem;
+    margin-bottom:0;
+    margin-top:15rem;
+   
+}
+.under1-title {
+    height: 8px;
+    width: 75%;
+    background: linear-gradient(85deg,#ffdc66,transparent);
+}
+.under2-title {
+    height: 8px;
+    width: 45%;
+    background: linear-gradient(85deg,#ffdc66,transparent);
+}
+.svg-class {
+    position: absolute;
+    left: 20.64%;
+    top: 23.17%;
+    
+}
+.skills-card {
+    padding-top: 20rem;
+    display:flex;
+    flex-direction:column;
+    gap:15rem;
+}
+.card {
+    
+    display:flex;
+    flex-direction:column;
+    align-items:start;
+    
+}
+.card-title {
+    font-size: 5rem;
+    margin-bottom: 0;
+}
+.card-txt {
+    font-size: 3rem;
+    margin-bottom:0px;
+}
+.under3-title {
+    height: 10px;
+    width: 74%;
+    background: linear-gradient(85deg,#ffdc66,transparent);
+}
+.under4-title {
+    height: 10px;
+    width: 48%;
+    background: linear-gradient(85deg,#ffdc66,transparent);
+}
+.con3-title {
+    font-size: 5rem;
+    margin-bottom: 0;
+    margin-top: 15rem;
+}
+.under5-title {
+    height: 10px;
+    width: 48%;
+    background: linear-gradient(85deg,#ffdc66,transparent);
+}
