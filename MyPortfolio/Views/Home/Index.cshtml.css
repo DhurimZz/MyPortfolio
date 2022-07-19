@@ -1,12 +1,11 @@
 ﻿
-
 .header-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left:3rem;
     padding-right:3rem;
-
+    padding-top: 2rem;
 }
 .icon-menu-item {
     width: 4.563rem;
@@ -16,25 +15,28 @@
     border-radius: 6px;
 }
 .con {
-    margin-top:2rem;
-    padding-top: 12rem;
-    padding-bottom: 12rem;
+    padding-top: 18rem;
 }
-.con-wrapper{
-    display:flex;
-    justify-content:center;
-    height:auto;
+.con-photo-size{
     width:100%;
+}
+.con-wrapper {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 100%;
 }
 .content-center {
     max-width: 87.5rem;
+    width: 100%;
     margin: auto;
     height: 100%;
     padding: 0 5.5rem;
 }
 .title{
     font-size:4rem;
-    margin-bottom:0;
+    margin:0;
+    
 }
 .title1 {
     font-size: 3rem;
@@ -58,25 +60,20 @@
 .con2-title{
     font-size:4rem;
     margin-bottom:0;
-    margin-top:15rem;
+    margin-top:29rem;
    
 }
 .under1-title {
     height: 8px;
-    width: 75%;
+    width: 55%;
     background: linear-gradient(85deg,#ffdc66,transparent);
 }
 .under2-title {
     height: 8px;
-    width: 45%;
+    width: 33%;
     background: linear-gradient(85deg,#ffdc66,transparent);
 }
-.svg-class {
-    position: absolute;
-    left: 20.64%;
-    top: 23.17%;
-    
-}
+
 .skills-card {
     padding-top: 20rem;
     display:flex;
@@ -88,6 +85,7 @@
     display:flex;
     flex-direction:column;
     align-items:start;
+    gap:2rem;
     
 }
 .card-title {
@@ -100,12 +98,12 @@
 }
 .under3-title {
     height: 10px;
-    width: 74%;
+    width: 50%;
     background: linear-gradient(85deg,#ffdc66,transparent);
 }
 .under4-title {
     height: 10px;
-    width: 48%;
+    width: 33%;
     background: linear-gradient(85deg,#ffdc66,transparent);
 }
 .con3-title {
@@ -115,12 +113,12 @@
 }
 .under5-title {
     height: 10px;
-    width: 48%;
+    width: 30%;
     background: linear-gradient(85deg,#ffdc66,transparent);
 }
 .under6-title {
     height: 10px;
-    width: 90%;
+    width: 60%;
     background: linear-gradient(85deg,#ffdc66,transparent);
 }
 .con4-title {
@@ -130,16 +128,16 @@
 }
 .con4-form {
     display: flex;
-    flex-direction: column;
-    padding-top: 20rem;
+    flex-wrap:wrap;
+    padding-top: 15rem;
     gap:2rem;
 }
 .con4-form-input {
-    width: 17rem;
-    height: 3rem;
+    width: 24rem;
+    height: 8rem;
     padding: 3rem;
     font-size: 3rem;
-    border-radius: 0.7rem;
+    border-radius: 0.5rem;
     border: 1px solid #000;
 }
 .input-wrapper{
@@ -147,11 +145,11 @@
     justify-content:space-between;
 }
 .con4-form-input1 {
-    width:88%;
-    height: 3rem;
+    width:120%;
+    height: 8rem;
     padding: 3rem;
     font-size: 3rem;
-    border-radius: 0.7rem;
+    border-radius: 0.5rem;
     border: 1px solid #000;
 }
 .con4-form-input2 {
@@ -159,6 +157,7 @@
     resize: none;
     padding: 3rem;
     border: 1px solid #000;
+    border-radius: 0.5rem;
 }
 .form-button{
     display:flex;
@@ -203,11 +202,75 @@
     
     align-items: center;
 }
-.github-icon{
-    width:8rem;
-}
 .list1 {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 4.5rem;
+}
+.work-card-items {
+    display: flex;
+    flex-direction: column;
+    background-color: #433d56;
+    margin-top:8rem;
+    padding:3rem;
+    width:100%;
+    border-radius:0.7rem;
+    height:20rem;
+    justify-content:space-between;
+}
+.color-white{
+    color:white;
+    font-size:3rem;
+}
+.work-card-item-list{
+    display:flex;
+    justify-content:space-between;
+    padding:0;
+}
+.work-card{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.color-white-txt {
+    color: white;
+    font-size: 2rem;
+}
+.icon-html {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    background-color: #e34c26;
+}
+.icon-css {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    background-color: #563d7c;
+}
+.icon-js {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    background-color: #f1e05a;
+}
+.icon-php {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    background-color: #4F5D95
+}
+.icon-Csharp {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    background-color: #178600;
+}
+.item-list-wrapper {
+    display: flex;
+    align-items: center;
+    gap:0.5rem;
+}
+@media (min-width: 768px){
+    
 }
