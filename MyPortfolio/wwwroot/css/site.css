@@ -1,4 +1,6 @@
-
+html{
+    font-size:1rem;
+}
 
 
 *{
@@ -8,3 +10,8 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+@media  screen and (min-device-width: 768px) {
+    html{
+        font-size:0.4rem;
+    }
+}

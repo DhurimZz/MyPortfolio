@@ -3,9 +3,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left:3rem;
-    padding-right:3rem;
     padding-top: 2rem;
+}
+.navigation{
+    display:none;
 }
 .icon-menu-item {
     width: 4.563rem;
@@ -271,6 +272,48 @@
     align-items: center;
     gap:0.5rem;
 }
-@media (min-width: 768px){
-    
+@media screen and (min-device-width: 768px) {
+    .dz-logo {
+        width: 11rem;
+        height: 11rem;
+    }
+    .icon-menu{
+        display:none;
+    }
+    .navigation{
+        display:unset;
+    }
+    .navigation-itmes {
+        display: flex;
+        justify-content: space-between;
+        gap: 7rem;
+        font-size: 3rem;
+    }
+    .con-wrapper1{
+        display:flex;
+        flex-direction:row-reverse;
+        justify-content:space-between;
+        align-items:center;
+    }
+    .con-photo{
+        width:50%;
+    }
+    .title {
+        width: 60rem;
+        font-size:7.5rem;
+    }
+    .title1 {
+        font-size: 5.5rem;
+    }
+    .under-title{
+        width:115%;
+    }
+    .content-center {
+        max-width: none;
+        padding: 0rem 20rem;
+    }
+    .nav-item{
+       text-decoration:none;
+
+    }
 }
